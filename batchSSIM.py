@@ -185,8 +185,10 @@ class SSIMCalculator(tk.Tk):
         max_pair = None
         min_pair = None
         images_f1 = os.listdir(self.directory1)
+        images_f1 = [e for e in images_f1 if e.endswith(".jpg")]
         images_f1 = sorted(images_f1, key=extract_number)
         images_f2 = os.listdir(self.directory2)
+        images_f2 = [e for e in images_f2 if e.endswith(".jpg")]
         images_f2 = sorted(images_f2, key=extract_number)
         images1 = [os.path.join(self.directory1, f) for f in images_f1 if f.endswith(('.png', '.jpg', '.jpeg'))]
         images2 = [os.path.join(self.directory2, f) for f in images_f2 if f.endswith(('.png', '.jpg', '.jpeg'))]

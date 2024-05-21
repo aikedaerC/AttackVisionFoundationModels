@@ -35,3 +35,5 @@ here is the implementation: https://github.com/aikedaerC/imp-v1-3b-adv
 ```sh
 python batchSSIM.py
 ```
+
+![ssimcal](https://github.com/HongdaChen/picx-images-hosting/raw/master/20240521/ssimcal.1hs1hshqcr.webp)

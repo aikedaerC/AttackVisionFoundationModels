@@ -29,3 +29,9 @@ python gptv_attack.py --add_text
 only implement on imp-v1-3b
 
 here is the implementation: https://github.com/aikedaerC/imp-v1-3b-adv
+
+> For the convinent of calculating SSIM, we also implement a GUI tool which can both process single image pair and batch image pairs.
+
+```sh
+python batchSSIM.py
+```

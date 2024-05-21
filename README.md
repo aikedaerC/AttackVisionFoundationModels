@@ -24,3 +24,8 @@ python gptv_attack.py --add_text
 
 
 
+### Evaluation
+
+only implement on imp-v1-3b
+
+here is the implementation: https://github.com/aikedaerC/imp-v1-3b-adv

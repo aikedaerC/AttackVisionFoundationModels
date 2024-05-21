@@ -18,9 +18,13 @@ The installation of this project is extremely easy. You only need to:
 python gptv_attack.py --add_noise
 ```
 - Add text to the original image. 
+
+> Note: The text adding function is modified in source code level, so before adding text, please copy the funciotn `box_label_center()` at box_label+center.py into /root/miniconda3/lib/python3.9/site-packages/ultralytics/utils/plotting.py just after `box_label()` function in `Annotator` class.
+
 ```
 python gptv_attack.py --add_text
 ```
+
 
 
 

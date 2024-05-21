@@ -420,7 +420,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    STEPS = 3 # for adding noise
+    STEPS = 10 # for adding noise
     RESIZE = None # adding noise input image whether do resize op which will introduce interplate methods
     SSIM_THRESHOLD = 0.8
     patch_bbox = 224 # expand bbox to this size
